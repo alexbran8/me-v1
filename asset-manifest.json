@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9cad683a.css",
-    "main.js": "/portfolio/static/js/main.dca8e0fe.js",
-    "static/js/787.1f150503.chunk.js": "/portfolio/static/js/787.1f150503.chunk.js",
-    "static/media/microfrontends_puzzle.jpeg": "/portfolio/static/media/microfrontends_puzzle.7c7204281f18196aa7b3.jpeg",
-    "static/media/monolithic_vs_microservice_architecture.jpg": "/portfolio/static/media/monolithic_vs_microservice_architecture.ab46b66b844a3fa26f57.jpg",
-    "static/media/profile_picture.jpg": "/portfolio/static/media/profile_picture.dc3c7a30c7a932197518.jpg",
-    "static/media/david_popa_profile_pic.jpg": "/portfolio/static/media/david_popa_profile_pic.577c89101bd13b975042.jpg",
-    "index.html": "/portfolio/index.html",
-    "main.9cad683a.css.map": "/portfolio/static/css/main.9cad683a.css.map",
-    "main.dca8e0fe.js.map": "/portfolio/static/js/main.dca8e0fe.js.map",
-    "787.1f150503.chunk.js.map": "/portfolio/static/js/787.1f150503.chunk.js.map"
+    "main.css": "/portofolio/static/css/main.9cad683a.css",
+    "main.js": "/portofolio/static/js/main.29bdc3d9.js",
+    "static/js/787.1f150503.chunk.js": "/portofolio/static/js/787.1f150503.chunk.js",
+    "static/media/microfrontends_puzzle.jpeg": "/portofolio/static/media/microfrontends_puzzle.7c7204281f18196aa7b3.jpeg",
+    "static/media/monolithic_vs_microservice_architecture.jpg": "/portofolio/static/media/monolithic_vs_microservice_architecture.ab46b66b844a3fa26f57.jpg",
+    "static/media/profile_picture.jpg": "/portofolio/static/media/profile_picture.dc3c7a30c7a932197518.jpg",
+    "static/media/david_popa_profile_pic.jpg": "/portofolio/static/media/david_popa_profile_pic.577c89101bd13b975042.jpg",
+    "index.html": "/portofolio/index.html",
+    "main.9cad683a.css.map": "/portofolio/static/css/main.9cad683a.css.map",
+    "main.29bdc3d9.js.map": "/portofolio/static/js/main.29bdc3d9.js.map",
+    "787.1f150503.chunk.js.map": "/portofolio/static/js/787.1f150503.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9cad683a.css",
-    "static/js/main.dca8e0fe.js"
+    "static/js/main.29bdc3d9.js"
   ]
 }
