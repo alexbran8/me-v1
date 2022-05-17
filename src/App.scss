@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+.profile-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+// @media (prefers-reduced-motion: no-preference) {
+//   .profile-logo {
+//     animation: App-logo-spin infinite 100s linear;
+//   }
+// }
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+article {
+  // position: static;
+  // width: 75%;
+  min-height: 100vh;
+  width: 100vw;
+  margin: auto;
+  background-color: rgba(76, 175, 80, 0.1);
+  background-size: 50%;
+  padding-top: 5rem;
+}
+
+article h2 {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.project-presentation-container ul {
+  list-style: none;
+}
+
+
+.description-container {
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+.flex-row {
+  // flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  display: flex;
+  // background-color: blue;
+  width: 25%;
+  min-width: 15rem;
+  height: 20rem;
+  padding-top: 1%;
+  // padding: 1% 1% 1% 1%;
+}
+
+.flex-column {
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  display: flex;
+  // min-width: 100px;
+  // background: red;
+  font: sans-serif;
+  font-size: calc(10px + 2vmin);
+  width: 75%;
+  height: 20rem;
+  min-width: 10rem;
+  background-color: rgba(76, 175, 80, 0.1);
+  opacity: 0.5;
+}
+
+.flex-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-responsive {
+  width: 14rem;
+//   min-height: 12rem;
+  align-items: center;
+  justify-content: center;
+  height: 13em;
+}
+
+.img-big {
+  width: 100%;
+  height: auto;
+  max-width: 50rem;
+}
+
+.description-container {
+  max-width: 50%;
+  margin: auto;
+  text-align: justify;
+}
+
+.team-member-child h6 {
+  font-size: 1.2rem;
+}
+.dream-team-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex: 1 1 1 1;
+  flex-wrap: wrap;
+}
+
+.team-member-child {
+  min-width: 20rem;
+  min-height: 20rem;
+}
+
+.project-presentation-container .attention {
+  position: relative;
+  color: red;
+  font-size: 2rem;
+  border: 2px solid red;
+  transform: rotate(-5deg);
+  width: 30%;
+  min-height: 10%;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+html {overflow: -moz-scrollbars-none;
+    overflow: auto;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none; /* Firefox 64 */
+  }
+
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
