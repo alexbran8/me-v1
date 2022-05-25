@@ -12,6 +12,7 @@ import monolithic_vs_microservice_architecture from './monolithic_vs_microservic
 import './App.scss';
 
 
+
 function App() {
     const [isFullScreen, setIsFullScreen] = useState(false)
 
@@ -65,9 +66,9 @@ function App() {
             </div>
             {isFullScreen ?
                 <>
-                    <WhoamI />
+                    <WhoamI/>
                     <Resumee />
-                    <Projects />
+                    {/* <Projects /> */}
                     {/* <article>
                         <h2>resumeee</h2>
                         <img className="img-big" src={monolithic_vs_microservice_architecture} alt="why microfrontends" />

@@ -37,7 +37,6 @@
   }
 }
 
-
 article {
   // position: static;
   // width: 75%;
@@ -57,7 +56,6 @@ article h2 {
 .project-presentation-container ul {
   list-style: none;
 }
-
 
 .description-container {
   font-size: 1.4rem;
@@ -105,7 +103,7 @@ article h2 {
 
 .img-responsive {
   width: 14rem;
-//   min-height: 12rem;
+  //   min-height: 12rem;
   align-items: center;
   justify-content: center;
   height: 13em;
@@ -121,6 +119,10 @@ article h2 {
   max-width: 50%;
   margin: auto;
   text-align: justify;
+}
+
+.description-container p {
+  text-indent: 3rem;
 }
 
 .team-member-child h6 {
@@ -152,16 +154,17 @@ article h2 {
   margin: auto;
 }
 
+html {
+  overflow: -moz-scrollbars-none;
+  overflow: auto;
+  -ms-overflow-style: none; /* IE 11 */
+  scrollbar-width: none; /* Firefox 64 */
+}
 
+::-webkit-scrollbar {
+  display: none;
+}
 
-html {overflow: -moz-scrollbars-none;
-    overflow: auto;
-    -ms-overflow-style: none; /* IE 11 */
-    scrollbar-width: none; /* Firefox 64 */
-  }
-
-
-  ::-webkit-scrollbar {
-    display: none;
-  }
-  
+.inline-portofolio {
+font-size: 1.25rem;
+}
