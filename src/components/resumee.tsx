@@ -4,7 +4,7 @@ export const Resumee = () => {
     return (
      <>
       <article>
-                        <h2>resume</h2>
+                        <h2>Resume</h2>
                         {/* <img className="img-big" src={monolithic_vs_microservice_architecture} alt="why microfrontends" /> */}
                         <div className='description-container'>
                            <p>While experimenting different jobs and activities in the past years, programming has always been something special.</p>
