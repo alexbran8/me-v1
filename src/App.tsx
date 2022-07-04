@@ -7,9 +7,6 @@ import { Technologies } from './components/technologies'
 import landingPagePic from './pic1.jpg';
 
 
-import microfrontends_puzzle from './microfrontends_puzzle.jpeg'
-import monolithic_vs_microservice_architecture from './monolithic_vs_microservice_architecture.jpg'
-
 import './App.scss';
 
 
@@ -63,12 +60,13 @@ function App() {
                 {/* <ProfilePic /> */}
                 <h2>[ passionate / creative web developer ]</h2>
                 <h2>JavaScript - react.JS - next.JS</h2>
-                {isFullScreen ? <button onClick={() => { closeFullScreen() }}>CTRL + C </button> : <button onClick={() => { openFullScreen() }}>npm start</button>}
+                {isFullScreen ? <button className="button" onClick={() => { closeFullScreen() }}>CTRL + C </button> : <button  className="button" onClick={() => { openFullScreen() }}>npm start</button>}
             </div>
             {isFullScreen ?
                 <>
                     <WhoamI />
                     <Resumee />
+                    <Projects />
                     <Technologies />
                     {/* <Projects />     */}
                 </>

@@ -14,14 +14,14 @@ export const WhoamI = () => {
                     <div className="flex-row">
                         <div>
                             <img className="img-circle img-responsive img-bordered-primary profile-photo" src={profilePicture} alt="alexandru bran" />
-                            <h5 className="text-capitalize">Alexandru Bran</h5>
+                            <div className="text-capitalize">Alexandru Bran</div>
                             <div className="inline-portofolio">
                                 <a href="https://github.com/alexbran8" target="blank" className="inline-portofolio-icon"><SiGithub /></a>
                                 <a href="https://gitlab.com/alexbran8" target="blank" className="inline-portofolio-icon"><SiGitlab /></a>
                                 <a href="https://codepen.io/alexbran8" target="blank" className="inline-portofolio-icon"><SiCodepen /></a>
                                 <a href="https://www.linkedin.com/in/alexandru-bran-648ba9a4/" target="blank" className="inline-portofolio-icon"><SiLinkedin /></a>
                             </div>
-                            {/* <p className="text-muted text-capitalize">full stack developer @ Nokia Networks Romania</p> */}
+                            <div className="text-muted text-capitalize">full stack developer @ Nokia Networks Romania</div>
                         </div>
                     </div>
                     <div className="flex-column">

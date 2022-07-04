@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 export const Technologies = () => {
   return (
@@ -17,7 +17,7 @@ export const Technologies = () => {
             next.JS,
             CSS,
             HTML,
-            MICROSERVICES
+            MF
             </div>
             <div className="grid-item">
             <h3>DevOps</h3>
