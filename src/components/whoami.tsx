@@ -21,11 +21,7 @@ export const WhoamI = () => {
                                 <a href="https://codepen.io/alexbran8" target="blank" className="inline-portofolio-icon"><SiCodepen /></a>
                                 <a href="https://www.linkedin.com/in/alexandru-bran-648ba9a4/" target="blank" className="inline-portofolio-icon"><SiLinkedin /></a>
                             </div>
-<<<<<<< HEAD
                             <div className="text-muted text-capitalize">full stack developer @ Nokia Networks Romania</div>
-=======
-                            {/* <p className="text-muted text-capitalize">full stack developer @ Nokia Networks Romania</p> */}
->>>>>>> 9b85b04fab5c783c69765ff89fae86a6bae062e5
                         </div>
                     </div>
                     <div className="flex-column">

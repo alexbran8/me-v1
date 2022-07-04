@@ -60,24 +60,15 @@ function App() {
                 {/* <ProfilePic /> */}
                 <h2>[ passionate / creative web developer ]</h2>
                 <h2>JavaScript - react.JS - next.JS</h2>
-<<<<<<< HEAD
                 {isFullScreen ? <button className="button" onClick={() => { closeFullScreen() }}>CTRL + C </button> : <button  className="button" onClick={() => { openFullScreen() }}>npm start</button>}
-=======
-                {isFullScreen ? <button onClick={() => { closeFullScreen() }}>CTRL + C </button> : <button onClick={() => { openFullScreen() }}>npm start</button>}
->>>>>>> 9b85b04fab5c783c69765ff89fae86a6bae062e5
             </div>
             {isFullScreen ?
                 <>
                     <WhoamI />
                     <Resumee />
-<<<<<<< HEAD
                     <Projects />
                     <Technologies />
                     {/* <Projects />     */}
-=======
-                    <Technologies />
-                    <Projects />
->>>>>>> 9b85b04fab5c783c69765ff89fae86a6bae062e5
                 </>
                 : null}
         </div>
