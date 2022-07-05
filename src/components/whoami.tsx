@@ -1,7 +1,7 @@
 import React from 'react'
 import profilePicture from '../profile_photo.jpg';
 import { SiGithub, SiGitlab, SiLinkedin, SiCodepen } from 'react-icons/si';
-
+import "./whoami.css"
 
 
 export const WhoamI = () => {
