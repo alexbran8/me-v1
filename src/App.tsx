@@ -66,8 +66,8 @@ function App() {
                 <>
                     <WhoamI />
                     <Resumee />
-                    <Projects />
-                    <Technologies />
+                    {/* <Projects /> */}
+                    {/* <Technologies /> */}
                     {/* <Projects />     */}
                 </>
                 : null}
