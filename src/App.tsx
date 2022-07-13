@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { WhoamI } from './components/whoami'
 import { Resumee } from './components/resumee'
-import { Projects } from './components/projects'
-import { Technologies } from './components/technologies'
+// import { Projects } from './components/projects'
+// import { Technologies } from './components/technologies'
 // import logo from './logo.svg';
 import landingPagePic from './pic1.jpg';
 
