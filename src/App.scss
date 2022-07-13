@@ -125,15 +125,14 @@ article h2 {
 }
 
 
-
-.description-container {
-  max-width: 50%;
+.description-container{
+  max-width: 70%;
   margin: auto;
   text-align: justify;
 }
 
 .description-container p {
-  text-indent: 3rem;
+  text-indent: 2rem;
 }
 
 .team-member-child h6 {
@@ -215,4 +214,21 @@ html {
 
 .grid-item a {
   text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .flex-column {
+    width: 100%;
+  }
+  .flex-row{
+    width: 100%;
+  }
+  .description-container { 
+    max-width: 90%;
+    font-size: 1.1rem;
+  }
+  .description-container p{ 
+    text-indent: 1rem;
+    }
 }
