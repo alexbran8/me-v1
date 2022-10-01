@@ -8,7 +8,7 @@ export const Home = () => {
                 <h1>hello, I am Alexandru</h1>
                 <img src={landingPagePic} className="profile-logo" alt="profile-logo" />
                 {/* <ProfilePic /> */}
-                <h2>[ passionate fullstack developer ]</h2>
+                <h2>[ fullstack developer ]</h2>
                 {/* <h2>JavaScript - react.JS - next.JS</h2> */}
                 
             </div>

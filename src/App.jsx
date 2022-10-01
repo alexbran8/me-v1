@@ -32,7 +32,7 @@ function App() {
                  <Routes>
                         <Route path='/' element={<Home />}/> 
                         <Route exact path='/whoami' element={<WhoamI />}/> 
-                        {/* <Route path='/latest-projects'><WhoamI /></Route>  */}
+                        <Route path='/projects' element={<Projects />}/> 
                         {/* {/* <Route exact={true} path='/' component={Notes} /> */}
                         {/* <Route exact={true} path='/About' component={About} />  */}
                     </Routes>

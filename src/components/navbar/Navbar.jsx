@@ -14,16 +14,16 @@ export const Navbar = () => {
         className="navigation-menu">
         <ul>
           <li>
-          <Link to="/">Home</Link>
+          <Link to="/">home</Link>
           </li>
           <li>
-            <a href="/#/whoami">whoami</a>
+          <Link to="/whoami">whoami</Link>
           </li>
           <li>
-            <a href="/#/projects">latest projects</a>
+          <Link to="/projects">projects</Link>
           </li>
           <li>
-            <a href="/#/past-experience">past experience</a>
+          <Link to="/latest-experience">latest experience</Link>
           </li>
         </ul>
       </div>
