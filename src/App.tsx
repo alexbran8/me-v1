@@ -4,7 +4,9 @@ import { Resumee } from './components/resumee'
 import { Projects } from './components/projects'
 // import { Technologies } from './components/technologies'
 // import logo from './logo.svg';
-import landingPagePic from './coverPhoto.jpg';
+import landingPagePic from './profile_photo.jpg';
+
+
 
 
 import './App.scss';
@@ -58,8 +60,8 @@ function App() {
                 <h1>hello, I am Alexandru</h1>
                 <img src={landingPagePic} className="profile-logo" alt="profile-logo" />
                 {/* <ProfilePic /> */}
-                <h2>[ passionate / creative web developer ]</h2>
-                <h2>JavaScript - react.JS - next.JS</h2>
+                <h2>[ passionate fullstack developer ]</h2>
+                {/* <h2>JavaScript - react.JS - next.JS</h2> */}
                 {isFullScreen ? <button className="button" onClick={() => { closeFullScreen() }}>CTRL + C </button> : <button  className="button" onClick={() => { openFullScreen() }}>npm start</button>}
             </div>
             {isFullScreen ?

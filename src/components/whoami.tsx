@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePicture from '../profile_photo.jpg';
+import landingPagePic from './../coverPhoto.jpg';
 import { SiGithub, SiGitlab, SiLinkedin, SiCodepen } from 'react-icons/si';
 import "./whoami.css"
 
@@ -13,7 +13,7 @@ export const WhoamI = () => {
                 <div className="flex-body">
                     <div className="flex-row">
                         <div>
-                            <img className="img-circle img-responsive img-bordered-primary profile-photo" src={profilePicture} alt="alexandru bran" />
+                            <img className="img-circle img-responsive img-bordered-primary profile-photo" src={landingPagePic} alt="alexandru bran" />
                             <div className="text-capitalize">Alexandru Bran</div>
                             <div className="inline-portofolio">
                                 <a href="https://github.com/alexbran8" target="blank" className="inline-portofolio-icon"><SiGithub /></a>
