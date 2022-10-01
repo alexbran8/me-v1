@@ -1,5 +1,5 @@
 import React from 'react'
-import landingPagePic from './../coverPhoto.jpg';
+import landingPagePic from './../static/coverPhoto.jpg';
 
 import "./whoami.css"
 

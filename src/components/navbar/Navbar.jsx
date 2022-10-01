@@ -1,6 +1,9 @@
 import React from 'react'
 import "./navbar.css"
 
+import {
+  Link
+} from "react-router-dom";
 
 
   
@@ -10,17 +13,17 @@ export const Navbar = () => {
       <div
         className="navigation-menu">
         <ul>
-          {/* <li>
+          <li>
           <Link to="/">Home</Link>
-          </li> */}
-          <li>
-            <a href="/whoami">whoami</a>
           </li>
           <li>
-            <a href="/projects">latest projects</a>
+            <a href="/#/whoami">whoami</a>
           </li>
           <li>
-            <a href="/past-experience">past experience</a>
+            <a href="/#/projects">latest projects</a>
+          </li>
+          <li>
+            <a href="/#/past-experience">past experience</a>
           </li>
         </ul>
       </div>

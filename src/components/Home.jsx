@@ -1,5 +1,5 @@
 import React from "react";
-import landingPagePic from './../profile_photo.jpg';
+import landingPagePic from './../static/profile_photo.jpg';
 export const Home = () => {
 
     return (
