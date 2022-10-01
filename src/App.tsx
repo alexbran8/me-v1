@@ -2,15 +2,21 @@ import React, { useState } from 'react';
 import { WhoamI } from './components/whoami'
 import { Resumee } from './components/resumee'
 import { Projects } from './components/projects'
-// import { Technologies } from './components/technologies'
+import { Home } from './components/Home'
+import { Navbar } from './components/navbar/Navbar'
+import {Footer} from './components/footer/Footer'
 // import logo from './logo.svg';
-import landingPagePic from './profile_photo.jpg';
 
 
 
+import {
+    HashRouter,
+    Route,
+  } from "react-router-dom";
+
+  import { Switch } from "react-router";
 
 import './App.scss';
-
 
 
 function App() {
@@ -56,23 +62,21 @@ function App() {
     }
     return (
         <div className="App">
-            <div className='App-header'>
-                <h1>hello, I am Alexandru</h1>
-                <img src={landingPagePic} className="profile-logo" alt="profile-logo" />
-                {/* <ProfilePic /> */}
-                <h2>[ passionate fullstack developer ]</h2>
-                {/* <h2>JavaScript - react.JS - next.JS</h2> */}
-                {isFullScreen ? <button className="button" onClick={() => { closeFullScreen() }}>CTRL + C </button> : <button  className="button" onClick={() => { openFullScreen() }}>npm start</button>}
+            <div className="main-container">
+           <Navbar />
+                 <HashRouter >  
+                      
+                 <Switch>
+                        <Route path='/'><Home /></Route> 
+                        <Route path='/whoami'><WhoamI /></Route> 
+                        <Route path='/latest-projects'><WhoamI /></Route> 
+                        {/* <Route exact={true} path='/' component={Notes} />
+                        <Route exact={true} path='/About' component={About} /> */}
+                    </Switch>
+                </HashRouter>
+            <Footer />
+            {/* {isFullScreen ? <button className="button" onClick={() => { closeFullScreen() }}>CTRL + C </button> : <button  className="button" onClick={() => { openFullScreen() }}>npm start</button>} */}
             </div>
-            {isFullScreen ?
-                <>
-                    <WhoamI />
-                    <Resumee />
-                    <Projects />
-                    {/* <Technologies /> */}
-                    {/* <Projects />     */}
-                </>
-                : null}
         </div>
     );
 }

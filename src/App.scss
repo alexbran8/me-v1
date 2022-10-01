@@ -7,7 +7,7 @@
   pointer-events: none;
 }
 
-.App-header {
+.main-container {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -37,7 +37,7 @@ article {
   min-height: 100vh;
   width: 100vw;
   margin: auto;
-  background-color: rgba(76, 175, 80, 0.1);
+  // background-color: rgba(76, 175, 80, 0.1);
   background-size: 50%;
   padding-top: 5rem;
 }
@@ -67,7 +67,7 @@ article h2 {
   // background-color: blue;
   // width: 20%;
   // min-width: 30vw;
-  background-color: rgba(76, 175, 80, 0.1);
+  // background-color: rgba(76, 175, 80, 0.1);
   padding: 2%;
   // opacity: 0.5;
   // height: 20rem;
@@ -89,7 +89,7 @@ article h2 {
   padding: 2%;
   height: 50vh;
   min-width: 50vw;
-  background-color: rgba(76, 175, 80, 0.1);
+  // background-color: rgba(76, 175, 80, 0.1);
   opacity: 0.5;
 }
 
@@ -120,7 +120,8 @@ article h2 {
 
 .profile-photo {
   // height: 10rem;
-  height: auto;
+  height: 50wh;;
+  width: auto;
   // border: 1px solid red;
 }
 

@@ -6,7 +6,6 @@ export const Projects = () => {
   return (
     <div>
       <article>
-        <h2>Projects</h2>
         <div className="grid-container">
           <div className="grid-item">
             <a href="https://alexbran8.github.io/react-tensorflow-wall-project/" target="blank">
