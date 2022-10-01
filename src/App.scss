@@ -53,7 +53,8 @@ article h2 {
 
 .description-container {
   font-size: 1.4rem;
-  text-align: justify;
+  // text-align: center;
+  padding-top: 10vh;
 }
 
 .flex-row {
@@ -127,9 +128,9 @@ article h2 {
 
 
 .description-container{
-  max-width: 70%;
+  max-width: 90%;
   margin: auto;
-  text-align: justify;
+  text-align: center;
 }
 
 .description-container p {
@@ -139,14 +140,7 @@ article h2 {
 .team-member-child h6 {
   font-size: 1.2rem;
 }
-.dream-team-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  flex: 1 1 1 1;
-  flex-wrap: wrap;
-}
+
 
 .team-member-child {
   min-width: 20rem;

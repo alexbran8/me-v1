@@ -13,6 +13,9 @@ export const Navbar = () => {
       <div
         className="navigation-menu">
         <ul>
+        <li>
+          <Link to="/last-sunday">last sunday</Link>
+          </li>
           <li>
           <Link to="/">home</Link>
           </li>

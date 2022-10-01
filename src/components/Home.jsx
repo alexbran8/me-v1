@@ -8,9 +8,11 @@ export const Home = () => {
         <div className='App-header'>
 
                 
-        <div className="typed-out"><h1>hello, I am Alexandru</h1></div>
+        <div className="typed-out"><h1>hello, I'm Alexandru</h1></div>
+        <div class="fade-in-image">
                 <img src={landingPagePic} className="profile-logo" alt="profile-logo" />
-                <h2>[fullstack developer]</h2>
+                </div>
+                <h2>[fullStackDeveloper@Haufe]</h2>
                 {/* <h2>JavaScript - react.JS - next.JS</h2> */}
                 
             </div>

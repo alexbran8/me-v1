@@ -4,6 +4,7 @@ import { Resumee } from './components/resumee'
 import { Projects } from './components/projects'
 import { Home } from './components/Home'
 import { Navbar } from './components/navbar/Navbar'
+import { LastSunday } from './components/lastsunday/LastSunday'
 import {Footer} from './components/footer/Footer'
 // import logo from './logo.svg';
 
@@ -33,6 +34,7 @@ function App() {
                         <Route path='/' element={<Home />}/> 
                         <Route exact path='/whoami' element={<WhoamI />}/> 
                         <Route path='/projects' element={<Projects />}/> 
+                        <Route path='/last-sunday' element={<LastSunday />}/> 
                         {/* {/* <Route exact={true} path='/' component={Notes} /> */}
                         {/* <Route exact={true} path='/About' component={About} />  */}
                     </Routes>

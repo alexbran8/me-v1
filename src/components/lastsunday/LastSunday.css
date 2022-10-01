@@ -7,7 +7,6 @@
 
 .text-muted {
   font-size:medium;
-  color: gray
 }
 
 
@@ -19,3 +18,22 @@
       color: white;
       padding: 1rem 1rem 1rem 1rem;
     }
+
+    .image-container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    
+    
+    .mid-left {
+      position: absolute;
+      top: 20vh;
+      left: 25vw;
+      transform: rotate(-30deg);
+      font-size: 4vw;
+      font-weight: 1500;
+      color: black;
+
+    }
+    
