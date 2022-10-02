@@ -12,7 +12,7 @@ export const Home = () => {
         <div className="fade-in-image">
                 <img src={landingPagePic} className="profile-logo" alt="profile-logo" />
                 </div>
-                <h2>[fullStackDeveloper@Haufe]</h2>
+                <h2>[fullStackDeveloper]</h2>
                 {/* <h2>JavaScript - react.JS - next.JS</h2> */}
             </div>
     )

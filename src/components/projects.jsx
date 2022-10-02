@@ -93,7 +93,7 @@ export const Projects = () => {
             </a>
           </div>
           <div className="grid-item">
-          <div className='badge' data-label='PoC' />
+          <div className='badge' data-label='75%' />
             <a href="" target="blank">
               <h3>art e-commerce</h3>
               <div className="grid-item-footer">
