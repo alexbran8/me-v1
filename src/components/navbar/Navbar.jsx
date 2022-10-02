@@ -14,10 +14,10 @@ export const Navbar = () => {
         className="navigation-menu">
         <ul>
         <li>
-          <Link to="/last-sunday">last sunday</Link>
+          <Link to="/last-sunday">myWeekend</Link>
           </li>
           <li>
-          <Link to="/">home</Link>
+          <Link to="/">me</Link>
           </li>
           <li>
           <Link to="/whoami">whoami</Link>
@@ -26,7 +26,7 @@ export const Navbar = () => {
           <Link to="/projects">projects</Link>
           </li>
           <li>
-          <Link to="/latest-experience">latest experience</Link>
+          <Link to="so-far">latestExperience</Link>
           </li>
         </ul>
       </div>

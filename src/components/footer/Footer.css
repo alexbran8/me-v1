@@ -1,4 +1,14 @@
 .footer {
     position:fixed;
     bottom: 50px;
+    padding: 0px 100px 0 100px;
 }
+
+.inline-portofolio {
+    font-size: 1.15rem;
+    }
+    
+    .inline-portofolio-icon {
+      color: white;
+      padding: 0 3vw 0 3vw;
+    }

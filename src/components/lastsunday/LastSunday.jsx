@@ -10,7 +10,7 @@ export const LastSunday = () => {
         <>
             <article>
                 <div className="image-container">
-            <div className='mid-left'>What did I do last Sunday?</div>
+            <div className='mid-left'>What did I do past weekend?</div>
        
                             <img className="img-responsive img-big" src={landingPagePic} alt="alexandru bran" />
                             </div>
