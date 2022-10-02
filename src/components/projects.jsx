@@ -45,9 +45,9 @@ export const Projects = () => {
           </div>
           <div className="grid-item">
             <a href="" target="blank">
-              <h3>CHARTS</h3>
+              <h3>Analytics</h3>
               <div className="grid-item-footer">
-              <div className="description">Inputs XLS and XML files and returns data in charts</div>
+              <div className="description">XLS and XML  = () => react.charts2.js</div>
                 <h6>PERN</h6>
               </div>
             </a>
@@ -76,6 +76,33 @@ export const Projects = () => {
               <div className="grid-item-footer">
               <div className="description">Management of university colaboration projects. (UVT II.S1 Individual Projects)</div>
                 <h6>react & node</h6>
+              </div>
+            </a>
+          </div>
+          <div className="grid-item">
+            <a href="" target="blank">
+              <h3>Dev & Production ENV</h3>
+              <div className="grid-item-footer">
+              <div className="description">Dev Env = (tests) => production env</div>
+                <h6>OpenStack & Jenkins & Docker</h6>
+              </div>
+            </a>
+          </div>
+          <div className="grid-item">
+            <a href="" target="blank">
+              <h3>Disaster Recovery</h3>
+              <div className="grid-item-footer">
+              <div className="description">(re)build everything in case of disaster</div>
+                <h6>Terraform ???</h6>
+              </div>
+            </a>
+          </div>
+          <div className="grid-item">
+            <a href="" target="blank">
+              <h3>art e-commerce</h3>
+              <div className="grid-item-footer">
+              <div className="description">e-commerce for paintings, books and cooking ideas</div>
+                <h6>PERN</h6>
               </div>
             </a>
           </div>
