@@ -7,14 +7,13 @@ export const Home = () => {
     return (
         <div className='App-header'>
 
-                
+                {/* TODO: fix padding of elements to make padding between h1 and h2 and picture responsive */}
         <div className="typed-out"><h1>hello, I'm Alexandru</h1></div>
-        <div class="fade-in-image">
+        <div className="fade-in-image">
                 <img src={landingPagePic} className="profile-logo" alt="profile-logo" />
                 </div>
                 <h2>[fullStackDeveloper@Haufe]</h2>
                 {/* <h2>JavaScript - react.JS - next.JS</h2> */}
-                
             </div>
     )
 }

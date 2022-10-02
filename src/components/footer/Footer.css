@@ -8,7 +8,9 @@
     font-size: 1.15rem;
     }
     
-    .inline-portofolio-icon {
-      color: white;
-      padding: 0 3vw 0 3vw;
-    }
+
+    /* TODO: fix inline  elements padding to be dynamically calculated based on a MIX and MAX number of elements*/
+.inline-portofolio-icon {
+    color: white;
+    padding: 0 2vw 0 2vw;
+}
