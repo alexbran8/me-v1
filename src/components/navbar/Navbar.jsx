@@ -14,7 +14,7 @@ export const Navbar = () => {
         className="navigation-menu">
         <ul>
         <li>
-          <Link to="/last-sunday">myWeekend</Link>
+          <Link to="/myweekend">myWeekend</Link>
           </li>
           <li>
           <Link to="/">me</Link>

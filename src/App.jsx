@@ -4,7 +4,7 @@ import { Resumee } from './components/resumee'
 import { Projects } from './components/projects'
 import { Home } from './components/Home'
 import { Navbar } from './components/navbar/Navbar'
-import { LastSunday } from './components/lastsunday/LastSunday'
+import { MyWeekend } from './components/myWeekend/MyWeekend'
 import {Footer} from './components/footer/Footer'
 import { Timeline } from './components/experience/Experience'
 
@@ -33,7 +33,7 @@ function App() {
                         <Route path='/' element={<Home />}/> 
                         <Route exact path='/whoami' element={<WhoamI />}/> 
                         <Route path='/projects' element={<Projects />}/> 
-                        <Route path='/last-sunday' element={<LastSunday />}/> 
+                        <Route path='/myweekend' element={<MyWeekend />}/> 
                         <Route path='/so-far' element={<Timeline />}/> 
                     </Routes>
                 </HashRouter>

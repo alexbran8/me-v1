@@ -5,8 +5,9 @@ import "./Experience.scss";
 export const Timeline = () => (
   <>
   <div className="experience-container">
-    <DevelopmentTimeline />
-    </div>
+    {/* <DevelopmentTimeline /> */}
+    <div className="btn-shine">Stay tuned... It's under development...</div>
+        </div>
   </>
 );
 
