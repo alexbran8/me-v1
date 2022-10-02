@@ -7,8 +7,6 @@ import { Navbar } from './components/navbar/Navbar'
 import { LastSunday } from './components/lastsunday/LastSunday'
 import {Footer} from './components/footer/Footer'
 import { Timeline } from './components/experience/Experience'
-// import logo from './logo.svg';
-
 
 
 import {
