@@ -8,20 +8,12 @@ export const Projects = () => {
       <article>
         <div className="grid-container">
           <div className="grid-item">
+            <div className='badge' data-label='WIP' />
             <a href="https://alexbran8.github.io/react-tensorflow-wall-project/" target="blank">
               <h3>"The Wall"</h3>
               <div className="grid-item-footer">
               <div className="description">Object detection</div>
                 <h6>PWA react & tensorflow.JS</h6>
-              </div>
-            </a>
-          </div>
-          <div className="grid-item">
-            <a href="https://alexbran8.github.io/photo-galleries/" target="blank">
-              <h3>Galleries</h3>
-              <div className="grid-item-footer">
-              <div className="description">Different gallery implementations</div>
-                <h6>react</h6>
               </div>
             </a>
           </div>
@@ -71,8 +63,9 @@ export const Projects = () => {
             </a>
           </div>
           <div className="grid-item">
+          <div className='badge' data-label='PoC' />
             <a href="" target="blank">
-              <h3>Talent Mangement (poc)</h3>
+              <h3>Talent Mangement</h3>
               <div className="grid-item-footer">
               <div className="description">Management of university colaboration projects. (UVT II.S1 Individual Projects)</div>
                 <h6>react & node</h6>
@@ -80,6 +73,7 @@ export const Projects = () => {
             </a>
           </div>
           <div className="grid-item">
+          <div className='badge' data-label='WIP' />
             <a href="" target="blank">
               <h3>Dev & Production ENV</h3>
               <div className="grid-item-footer">
@@ -89,6 +83,7 @@ export const Projects = () => {
             </a>
           </div>
           <div className="grid-item">
+          <div className='badge' data-label='WIP' />
             <a href="" target="blank">
               <h3>Disaster Recovery</h3>
               <div className="grid-item-footer">
@@ -98,11 +93,22 @@ export const Projects = () => {
             </a>
           </div>
           <div className="grid-item">
+          <div className='badge' data-label='PoC' />
             <a href="" target="blank">
               <h3>art e-commerce</h3>
               <div className="grid-item-footer">
               <div className="description">e-commerce for paintings, books and cooking ideas</div>
                 <h6>PERN</h6>
+              </div>
+            </a>
+          </div>
+          <div className="grid-item">
+          <div className='badge' data-label='WIP' />
+            <a href="https://alexbran8.github.io/photo-galleries/" target="blank">
+              <h3>Galleries</h3>
+              <div className="grid-item-footer">
+              <div className="description">Different gallery implementations</div>
+                <h6>react</h6>
               </div>
             </a>
           </div>
