@@ -13,20 +13,20 @@ export const Navbar = () => {
       <div
         className="navigation-menu">
         <ul>
-        <li>
+        <li className="btn btn-2">
           <Link to="/myweekend">myWeekend</Link>
           </li>
           <li>
-          <Link to="/">me</Link>
+          <Link className="btn btn-2" to="/">me</Link>
           </li>
           <li>
-          <Link to="/whoami">whoami</Link>
+          <Link className="btn btn-2" to="/whoami">whoami</Link>
           </li>
           <li>
-          <Link to="/projects">projects</Link>
+          <Link className="btn btn-2" to="/projects">projects</Link>
           </li>
           <li>
-          <Link to="so-far">latestExperience</Link>
+          <Link className="btn btn-2" to="so-far">latestExperience</Link>
           </li>
         </ul>
       </div>

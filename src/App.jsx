@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { WhoamI } from './components/whoami'
-import { Resumee } from './components/resumee'
-import { Projects } from './components/projects'
-import { Home } from './components/Home'
+import { WhoamI } from './components/whoami/WhoamI'
+// import { Resumee } from './components/resumee'
+import { Projects } from './components/projects/Projects'
+import { Home } from './components/home/Home'
 import { Navbar } from './components/navbar/Navbar'
 import { MyWeekend } from './components/myWeekend/MyWeekend'
 import {Footer} from './components/footer/Footer'

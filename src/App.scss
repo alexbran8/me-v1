@@ -175,52 +175,6 @@ html {
 }
 
 
-.grid-container {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, 250px);
-  grid-template-rows: auto;
-  place-content: center;
-  // justify-content: space-evenly;
-  // place-items: center;
-  // grid-template-columns: auto auto auto;
-  max-width: 90vw;
-  margin: auto;
-  // text-align: justify;
-  // border:2px solid red;
-  // background-color: rgba(76, 175, 80, 0.1);
-  opacity: 0.5;
-  
-  padding: 10px;
-}
-
-.grid-item {
-  position:relative;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  min-height: 30vh;
-  // min-height: 25vh;
-}
-
-
-
-.button {
-  display: inline-flex;
-  padding: 0.5rem 1.5rem;
-  background: palevioletred;
-  color: var(--clr-primary-100);
-  font-size: 1.5rem;
-
-  border-radius: 100vmax;
-}
-
-.grid-item a {
-  text-decoration: none;
-}
 
 
 @media only screen and (max-width: 600px) {

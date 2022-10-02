@@ -1,7 +1,7 @@
 import React from 'react'
-import landingPagePic from './../static/coverPhoto.jpg';
+import landingPagePic from './../../static/coverPhoto.jpg';
 
-import "./whoami.css"
+import "./WhoamI.css"
 
 
 export const WhoamI = () => {

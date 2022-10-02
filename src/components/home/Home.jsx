@@ -1,5 +1,5 @@
 import React from "react";
-import landingPagePic from './../static/profile_photo.jpg';
+import landingPagePic from './../../static/profile_photo.jpg';
 import "./Home2.scss"
 
 export const Home = () => {
