@@ -12,7 +12,7 @@ export const Projects = () => {
               <h3>"The Wall"</h3>
               <div className="grid-item-footer">
               <div className="description">Object detection</div>
-                <h6>PWA react.JS tensorflow.JS</h6>
+                <h6>PWA react & tensorflow.JS</h6>
               </div>
             </a>
           </div>
@@ -21,7 +21,7 @@ export const Projects = () => {
               <h3>Galleries</h3>
               <div className="grid-item-footer">
               <div className="description">Different gallery implementations</div>
-                <h6>react.JS</h6>
+                <h6>react</h6>
               </div>
             </a>
           </div>
@@ -30,7 +30,7 @@ export const Projects = () => {
               <h3>Planning</h3>
               <div className="grid-item-footer">
               <div className="description">Resource and Task Management</div>
-                <h6>node.JS, react.JS, docker, jenkins, postgreSQL</h6>
+                <h6>PERN</h6>
               </div>
             </a>
           </div>
@@ -39,7 +39,7 @@ export const Projects = () => {
               <h3>CRM</h3>
               <div className="grid-item-footer">
               <div className="description">CRUD for operations management</div>
-                <h6>node.JS, react.JS, docker, jenkins, postgreSQL</h6>
+                <h6>PERN</h6>
               </div>
             </a>
           </div>
@@ -48,25 +48,38 @@ export const Projects = () => {
               <h3>CHARTS</h3>
               <div className="grid-item-footer">
               <div className="description">Inputs XLS and XML files and returns data in charts</div>
-                <h6>node.JS, react.JS, docker, jenkins, postgreSQL</h6>
+                <h6>PERN</h6>
               </div>
             </a>
           </div>
-          {/* <div className="grid-item">
-            <a href="https://alexbran8.github.io/photo-galleries/" target="blank">
-              <h3>The NavBar Project</h3>
+          <div className="grid-item">
+            <a href="" target="blank">
+              <h3>MicroFronteds</h3>
+              <div className="grid-item-footer">
+              <div className="description">Developmment of MF arhitecture for react UIs. UVT Summer Practice 2022.</div>
+                <h6>react & redux</h6>
+              </div>
             </a>
           </div>
           <div className="grid-item">
-            <a href="https://alexbran8.github.io/photo-galleries/" target="blank">
-              <h3>The Footer Project</h3>
+            <a href="" target="blank">
+              <h3>Tools Management</h3>
+              <div className="grid-item-footer">
+              <div className="description">Issue requests, access tools, see status. UVT II.S2 Group Projects</div>
+                <h6>nextJS</h6>
+              </div>
             </a>
           </div>
           <div className="grid-item">
-            <a href="https://alexbran8.github.io/photo-galleries/" target="blank">
-              <h3>The Article Project</h3>
+            <a href="" target="blank">
+              <h3>Talent Mangement (poc)</h3>
+              <div className="grid-item-footer">
+              <div className="description">Management of university colaboration projects. (UVT II.S1 Individual Projects)</div>
+                <h6>react & node</h6>
+              </div>
             </a>
-          </div> */}
+          </div>
+
         </div>
       </article>
     </div>
