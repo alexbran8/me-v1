@@ -14,3 +14,7 @@
     color: white;
     padding: 0 2vw 0 2vw;
 }
+
+.grid-item-footer h6 {
+    font-size: 0.9rem;
+}

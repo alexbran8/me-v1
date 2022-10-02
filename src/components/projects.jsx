@@ -9,7 +9,7 @@ export const Projects = () => {
         <div className="grid-container">
           <div className="grid-item">
             <a href="https://alexbran8.github.io/react-tensorflow-wall-project/" target="blank">
-              <h3>The Wall</h3>
+              <h3>"The Wall"</h3>
               <div className="grid-item-footer">
               <div className="description">Object detection</div>
                 <h6>PWA react.JS tensorflow.JS</h6>
@@ -29,7 +29,7 @@ export const Projects = () => {
             <a href="" target="blank">
               <h3>Planning</h3>
               <div className="grid-item-footer">
-              <div className="description">Resource and Activity Management and Reporting</div>
+              <div className="description">Resource and Task Management</div>
                 <h6>node.JS, react.JS, docker, jenkins, postgreSQL</h6>
               </div>
             </a>
@@ -38,7 +38,7 @@ export const Projects = () => {
             <a href="" target="blank">
               <h3>CRM</h3>
               <div className="grid-item-footer">
-              <div className="description">CRUD for operations management and reporting</div>
+              <div className="description">CRUD for operations management</div>
                 <h6>node.JS, react.JS, docker, jenkins, postgreSQL</h6>
               </div>
             </a>
@@ -47,7 +47,7 @@ export const Projects = () => {
             <a href="" target="blank">
               <h3>CHARTS</h3>
               <div className="grid-item-footer">
-              <div className="description">Inputs XLS and XML files and processes data to charts</div>
+              <div className="description">Inputs XLS and XML files and returns data in charts</div>
                 <h6>node.JS, react.JS, docker, jenkins, postgreSQL</h6>
               </div>
             </a>
