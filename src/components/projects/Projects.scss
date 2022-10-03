@@ -32,8 +32,8 @@
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    min-height: 30vh;
-    min-height: 25vh;
+    min-height: 35vh;
+    z-index: 1;
   }
   
   
@@ -67,7 +67,8 @@
 
 .grid-item .description {
     position: relative;
-    font-size:15px
+    font-size:15px;
+    color: black
 }
 
 .badge::before  {
@@ -76,14 +77,17 @@
     right: -0.5rem;
     content: '';
     background: #283539;
+    background: white;
     color: white;
     text-align: center;
     height: 30px;
     width:28px;
     transform: rotate(45deg);
+    z-index: 0;
 }
 
 .badge::after{
+  z-index: 999;
     position: absolute;
     content: attr(data-label);
     top: 5px;
@@ -97,3 +101,10 @@
     box-shadow: 4px 4px 15px rgba(26,35,126);
 }
 
+.grid-item h3 {
+  color: rgba(160, 3, 203, 0.801);
+}
+
+.grid-item h6 {
+  color:gray;
+}
