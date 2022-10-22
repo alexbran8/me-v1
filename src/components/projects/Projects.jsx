@@ -6,7 +6,7 @@ let projects =  require("./projects-data.json");
 
 export const Projects = () => {
   return (
-    <div>∂
+    <div>
       <article>
         <div className="grid-container">
           {projects && projects.map((item,index) =>   
@@ -17,7 +17,7 @@ export const Projects = () => {
                  target="blank"
                >
                  <h3>{item.projectName}</h3>
-                 <div className="photo-wrapper"></div>
+                 <div className="photo-wrapper"><iframe className="responsive-iframe" src="https://alexbran8.github.io/me"/></div>
                  <div className="grid-item-footer">
                    <div className="description">Object detection</div>
                    <h6>PWA react & tensorflow.JS</h6>
@@ -155,16 +155,6 @@ export const Projects = () => {
               <h6>react</h6>
             </div>
             {/* </a> */}
-          </div>
-          <div className="grid-item">
-            <div className="badge" data-label="maintenance" />
-            <a href="https://alexbran8.github.io/me" target="blank">
-              <h3>ME</h3>
-              <div className="grid-item-footer">
-                <div className="description">Portofolio</div>
-                <h6>react</h6>
-              </div>
-            </a>
           </div>
           <div className="grid-item">
             <div className="badge" data-label="WIP" />
