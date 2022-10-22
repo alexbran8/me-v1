@@ -32,10 +32,13 @@
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    min-height: 35vh;
-    z-index: 1;
+    min-height: 35vh;    
   }
   
+  .grid-item .photo-wrapper {
+    border: 1px solid red;
+    height: 15vh;
+  }
   
   
   .button {
@@ -73,8 +76,9 @@
 
 .badge::before  {
     position: absolute;
+
     top: 2rem;
-    right: -0.5rem;
+    right: -0.75rem;
     content: '';
     background: #283539;
     background: white;
@@ -83,7 +87,7 @@
     height: 30px;
     width:28px;
     transform: rotate(45deg);
-    z-index: 0;
+    z-index: 10;
 }
 
 .badge::after{
@@ -91,7 +95,7 @@
     position: absolute;
     content: attr(data-label);
     top: 5px;
-    right: -14px;
+    right: -17.5px;
     padding: 0.5rem;
     width: 10rem;
     background: #3949ab;
@@ -99,6 +103,7 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     box-shadow: 4px 4px 15px rgba(26,35,126);
+    z-index: 600;
 }
 
 .grid-item h3 {
