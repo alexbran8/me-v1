@@ -1,8 +1,26 @@
 [
-   
-        {
+    {
+        "projectName": "THE WALL",
+        "status": "WIP",
+        "URL": "https://alexbran8.github.io/react-tensorflow-wall-project/",
+        "technologies": "PWA react & tensorflow.JS",
+        "description": "object detection",
+        "URL_repo":"https://github.com/alexbran8/react-tensorflow-wall-project"
+    },
+    {
         "projectName": "ME",
-        "status": "WIP"
-        }
-   
-        ]
+        "status": "WIP",
+        "URL": "https://alexbran8.github.io/me",
+        "technologies": "react",
+        "description": "this is me",
+        "URL_repo":"https://github.com/alexbran8/me"
+    },
+    {
+        "projectName": "UI Projects",
+        "status": "WIP",
+        "URL": "https://alexbran8.github.io/ui_projects/",
+        "technologies": "react",
+        "description": "Templates for UI",
+        "URL_repo":"https://github.com/alexbran8/ui_projects"
+    }
+]

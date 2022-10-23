@@ -1,5 +1,5 @@
 import React from "react";
-import { SiGithub, SiGitlab, SiLinkedin, SiCodepen } from 'react-icons/si';
+import { SiGithub, SiGitlab, SiLinkedin, SiCodepen, FaCodeBranch } from 'react-icons/si';
 import './Footer.css'
 export const Footer = ()=> {
     return (

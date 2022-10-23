@@ -1,45 +1,48 @@
 import React from "react";
-import  "./Projects.scss" 
+import { FaCodeBranch } from "react-icons/fa";
+import "./Projects.scss";
 
-let projects =  require("./projects-data.json");
-
+let projects = require("./projects-data.json");
 
 export const Projects = () => {
   return (
     <div>
       <article>
         <div className="grid-container">
-          {projects && projects.map((item,index) =>   
+          {projects &&
+            projects.map((item, index) => (
               <div key={index} className="grid-item">
-               <div className="badge" data-label={item.status ? item.status : "WIP"} />
-               <a
-                 href="https://alexbran8.github.io/react-tensorflow-wall-project/"
-                 target="blank"
-               >
-                 <h3>{item.projectName}</h3>
-                 <div className="photo-wrapper"><iframe className="responsive-iframe" src="https://alexbran8.github.io/me"/></div>
-                 <div className="grid-item-footer">
-                   <div className="description">Object detection</div>
-                   <h6>PWA react & tensorflow.JS</h6>
-                 </div>
-               </a>
-             </div>
-               
-               )}
-          <div className="grid-item">
-            <div className="badge" data-label="25%" />
-            <a
-              href="https://alexbran8.github.io/react-tensorflow-wall-project/"
-              target="blank"
-            >
-              <h3>"The Wall"</h3>
-              <div className="photo-wrapper"></div>
-              <div className="grid-item-footer">
-                <div className="description">Object detection</div>
-                <h6>PWA react & tensorflow.JS</h6>
+                <div
+                  className="badge"
+                  data-label={item.status ? item.status : "WIP"}
+                />
+                <span title="Click to open app">
+                  <a href={item.URL} target="blank">
+                    <h3>{item.projectName}</h3>
+                  </a>
+                </span>
+                <div className="photo-wrapper">
+                  <iframe
+                    frameborder="0"
+                    scrolling="no"
+                    className="responsive-iframe"
+                    src={item.URL}
+                  />
+                </div>
+                <div className="grid-item-footer">
+                  <div className="description">{item.description}</div>
+                  <h6>
+                    <a href={item.URL_repo} target="blank">
+                      <span title="Click to open repo">
+                        <FaCodeBranch />
+                        {item.technologies}
+                      </span>
+                    </a>
+                  </h6>
+                </div>
               </div>
-            </a>
-          </div>
+            ))}
+
           <div className="grid-item">
             {/* <a href="" target="blank"> */}
             <h3>Planning</h3>
