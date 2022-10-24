@@ -1,122 +1,128 @@
 .grid-item-footer h6 {
-    /* position: relative; */
-    /* border: 2px solid red; */
-    /* bottom:0px; */
-    
+  /* position: relative; */
+  /* border: 2px solid red; */
+  /* bottom:0px; */
+
 }
 
 .grid-container {
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(auto-fill, 21rem);
-    grid-template-rows: auto;
-    place-content: center;
-    // justify-content: space-evenly;
-    // place-items: center;
-    // grid-template-columns: auto auto auto;
-    max-width: 95vw;
-    margin: auto;
-    // text-align: justify;
-    // border:2px solid red;
-    // background-color: rgba(76, 175, 80, 0.1);
-    opacity: 0.5;
-    
-    padding: 10px;
-  }
-  
-  .grid-item {
-    position:relative;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    min-height: 35vh;    
-    // width: 12vw;
-  }
-  
-  .grid-item .photo-wrapper {
-    border: 1px solid red;
-    height: 15vh;
-    position: relative;
+  display: grid;
+  grid-gap: 1000px;
+  grid-template-columns: repeat(auto-fill, 21rem);
+  grid-template-rows: auto;
+  place-content: center;
+  // justify-content: space-evenly;
+  // place-items: center;
+  // grid-template-columns: auto auto auto;
+  max-width: 95vw;
+  margin: auto;
+  // text-align: justify;
+  // border:2px solid red;
+  // background-color: rgba(76, 175, 80, 0.1);
+  opacity: 0.5;
+
+  padding: 10px;
+}
+
+.grid-item {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 0px 20px 0px 20px;
+  font-size: 30px;
+  text-align: center;
+  min-height: 40vh;
+  // width: 12vw;
+}
+
+.grid-item .photo-wrapper {
+  border: 1px solid red;
+  // min-height: 5vh;
+  position: relative;
   overflow: hidden;
+  display: grid;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-  }
-  
-  
-  .button {
-    display: inline-flex;
-    padding: 0.5rem 1.5rem;
-    background: palevioletred;
-    color: var(--clr-primary-100);
-    font-size: 1.5rem;
-  
-    border-radius: 100vmax;
-  }
-  
-  .grid-item a {
-    text-decoration: none;
-  }
-  
+  height: 100%;  
+  justify-content: center;
+  align-content: center;
+  // padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+
+.button {
+  display: inline-flex;
+  padding: 0.5rem 1.5rem;
+  background: palevioletred;
+  color: var(--clr-primary-100);
+  font-size: 1.5rem;
+
+  border-radius: 100vmax;
+}
+
+.grid-item a {
+  text-decoration: none;
+}
+
 
 .grid-item-footer {
-    position: absolute;
-    text-align: center;
-    bottom:-30px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-size: 25px;
+  position: absolute;
+  text-align: center;
+  bottom: -30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 25px;
 }
 
 .grid-item .description {
-    position: relative;
-    font-size:15px;
-    color: black
+  position: relative;
+  font-size: 15px;
+  color: black
 }
 
-.badge::before  {
-    position: absolute;
+.badge::before {
+  position: absolute;
 
-    top: 2rem;
-    right: -0.75rem;
-    content: '';
-    background: #283539;
-    background: white;
-    color: white;
-    text-align: center;
-    height: 30px;
-    width:28px;
-    transform: rotate(45deg);
-    z-index: 10;
+  top: 2rem;
+  right: -0.75rem;
+  content: '';
+  background: #283539;
+  background: white;
+  color: white;
+  text-align: center;
+  height: 30px;
+  width: 28px;
+  transform: rotate(45deg);
+  z-index: 10;
 }
 
-.badge::after{
+.badge::after {
   z-index: 999;
-    position: absolute;
-    content: attr(data-label);
-    top: 5px;
-    right: -17.5px;
-    padding: 0.5rem;
-    width: 10rem;
-    background: #3949ab;
-    color: white;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    box-shadow: 4px 4px 15px rgba(26,35,126);
-    z-index: 600;
+  position: absolute;
+  content: attr(data-label);
+  top: 5px;
+  right: -17.5px;
+  padding: 0.5rem;
+  width: 10rem;
+  background: #3949ab;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 4px 4px 15px rgba(26, 35, 126);
+  z-index: 600;
 }
 
 .grid-item h3 {
   color: rgba(160, 3, 203, 0.801);
+  margin-bottom: 2%;
 }
 
 .grid-item a {
-  color:gray;
+  color: gray;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
@@ -126,6 +132,7 @@
   left: 0;
   bottom: 0;
   right: 0;
+  place-content: center;
   width: 100%;
   height: 70%;
   pointer-events: none;

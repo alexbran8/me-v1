@@ -21,16 +21,17 @@ export const Projects = () => {
                     <h3>{item.projectName}</h3>
                   </a>
                 </span>
+                <div className="description">{item.description}</div>
                 <div className="photo-wrapper">
                   <iframe
-                    frameborder="0"
+                    frameBorder="0"
                     scrolling="no"
                     className="responsive-iframe"
                     src={item.URL}
                   />
                 </div>
                 <div className="grid-item-footer">
-                  <div className="description">{item.description}</div>
+                 
                   <h6>
                     <a href={item.URL_repo} target="blank">
                       <span title="Click to open repo">
