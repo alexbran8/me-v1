@@ -16,6 +16,7 @@ export const WhoamI = () => {
                             <div className="text-capitalize">Alexandru Bran</div>
                             <div className="text-muted">fullStackDeveloper@Huafe</div>
                             <div className="text-muted">cyclist@669seiseinoveTEAM</div>
+                            <div className="text-muted">voluneteer@Alerrgam pentru Viata</div>
                             <div className="description-container">JavaScript enthusiast. Eager on knowledge sharing. I find interesting doing same thing in different ways...</div>
                         </div>
                     </div>
