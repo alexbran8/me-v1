@@ -28,6 +28,7 @@ export const Projects = () => {
                     scrolling="no"
                     className="responsive-iframe"
                     src={item.URL}
+                    title={item.projectName}
                   />
                 </div>
                 <div className="grid-item-footer">

@@ -26,6 +26,9 @@ export const Navbar = () => {
           <Link className="btn btn-2" to="/projects">projects</Link>
           </li>
           <li>
+          <Link className="btn btn-2" to="/blog">blog</Link>
+          </li>
+          <li>
           <Link className="btn btn-2" to="so-far">latestExperience</Link>
           </li>
         </ul>

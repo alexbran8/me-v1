@@ -5,7 +5,7 @@
         "URL": "https://alexbran8.github.io/react-tensorflow-wall-project/",
         "technologies": "PWA react & tensorflow.JS",
         "description": "object detection",
-        "URL_repo":"https://github.com/alexbran8/react-tensorflow-wall-project"
+        "URL_repo": "https://github.com/alexbran8/react-tensorflow-wall-project"
     },
     {
         "projectName": "ME",
@@ -13,7 +13,7 @@
         "URL": "https://alexbran8.github.io/me",
         "technologies": "react",
         "description": "this is me",
-        "URL_repo":"https://github.com/alexbran8/me"
+        "URL_repo": "https://github.com/alexbran8/me"
     },
     {
         "projectName": "UI Projects",
@@ -21,8 +21,54 @@
         "URL": "https://alexbran8.github.io/ui_projects/",
         "technologies": "react",
         "description": "Templates for UI",
-        "URL_repo":"https://github.com/alexbran8/ui_projects"
+        "URL_repo": "https://github.com/alexbran8/ui_projects"
     },
-    {},
-    {}
+    {
+        "projectName": "Serverless",
+        "status": "WIP",
+        "URL": "",
+        "technologies": "node, serverless",
+        "description": "Blueprint for Backend MicroServices",
+        "URL_repo": ""
+    },
+    {
+        "projectName": "BASH-RELEASE",
+        "status": "WIP",
+        "URL": "",
+        "technologies": "bash",
+        "description": "semantic versioning",
+        "URL_repo": ""
+    },
+    {
+        "projectName": "Tech Blog",
+        "status": "WIP",
+        "URL": "https://alexbran8.github.io/me/#/blog",
+        "technologies": "next.JS",
+        "description": "My experience on  how to start a tech blog",
+        "URL_repo": "https://github.com/alexbran8/blog"
+    } ,
+    {
+        "projectName": "webservices.ro",
+        "status": "WIP",
+        "URL": "https://webservices.ro/",
+        "technologies": "next.JS",
+        "description": "I did this only to overcome new challenges",
+        "URL_repo": "https://github.com/alexbran8/webservices"
+    },
+    {
+        "projectName": "React Blueprint",
+        "status": "WIP",
+        "URL": "https://github.com/alexbran8/react-blueprint",
+        "technologies": "react",
+        "description": "I did this only to overcome be much more organized...",
+        "URL_repo": "https://github.com/alexbran8/react-blueprint"
+    },
+    {
+        "projectName": "Security Testing 101",
+        "status": "WIP",
+        "URL": "https://github.com/alexbran8/security-tests",
+        "technologies": "react",
+        "description": "I did this only to develop my security testing skills",
+        "URL_repo": "https://github.com/alexbran8/security-tests"
+    }          
 ]

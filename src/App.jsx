@@ -7,6 +7,7 @@ import { Navbar } from './components/navbar/Navbar'
 import { MyWeekend } from './components/myWeekend/MyWeekend'
 import {Footer} from './components/footer/Footer'
 import { Timeline } from './components/experience/Experience'
+import { Blog } from './components/Blog'
 
 
 import {
@@ -35,6 +36,7 @@ function App() {
                         <Route path='/projects' element={<Projects />}/> 
                         <Route path='/myweekend' element={<MyWeekend />}/> 
                         <Route path='/so-far' element={<Timeline />}/> 
+                        <Route path='/blog' element={<Blog />}/> 
                     </Routes>
                 </HashRouter>
             <Footer />
